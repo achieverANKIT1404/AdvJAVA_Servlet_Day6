@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<style type="text/css">
+body{
+   background-image:url(Imges/Backg2.png);
+   background_attachment: fixed;
+   background-size: 100%;
+   font-family:calibri;
+}
+ .frm{
+     background-color:moccasin;
+     width:23pc;
+     margin-top:3pc;
+     padding:10px;
+     border-radius:6px;
+ }
+ h2{
+     font-size: 37px;
+     color:teal;
+ }
+ .inp{
+ margin-top:10px;
+     height:30px;
+     width:300px;
+     font-size:14px;
+     border:none;
+     border-radius:6px;
+ }
+ .inp1{
+     height:30px;
+     width:300px;
+     font-size:14px;
+     border:none;
+     border-radius:6px;
+ }
+ .inp,.inp1:hover{
+     outline-color:teal;
+ }
+
+ .btn{
+    margin-top:10px;
+     height:30px;
+     width:60px;
+     font-size:14px;
+     font-weight:bold;
+     border:none;
+     background-color:dodgerblue;
+     color:#fff;
+     border-radius:6px;
+     cursor:pointer;
+ }
+ body{
+      background-image:url(Imges/Backg2.png);
+   background_attachment: fixed;
+   background-size: 100%;
+   font-family:calibri;
+}
+ ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   height: 45px;
+   background-color: indigo;
+   font-size: 18px;
+   line-height: 36px;
+   border-radius: 7px;
+ }
+ h1{
+     margin-left: 13px;
+      color:navajowhite;
+     padding: 0 30px;
+     margin-top: 5px;
+ }
+ li{
+    float: left;
+ }
+ a{
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 60px;
+    margin-top:3px;
+ }
+ a:hover,  .active a{
+    color: sandybrown;
+ }
+</style>
+</head>
+<body>
+<nav>
+        <ul>
+          <li><h1>achieverANKIT</h1></li>
+          <li><a href = "login.html">Login</a></li>
+           <li><a href = "serv2">Logout</a></li>
+          <li><a href = "serv3">Profile</a></li>
+        </ul>
+    </nav>
+      <center>
+      <div class = frm>
+      <h2>Login</h2>
+      <hr>
+      <form action="serv1" method = "get">
+            <input type = "text" placeholder = "Enter UserName" name = "uname" class = inp><br><br>
+            <input type = "password" placeholder = "Enter Password" name = "upass" class = inp1><br><br>
+            <input type = "submit" value = "Login" class = btn>
+      </form>
+      </div>
+      </center>
+</body>
+</html>
